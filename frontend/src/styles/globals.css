@@ -2,9 +2,9 @@
 
 :root {
   --max-width: 1100px;
-  --border-radius: 12px;
+  --border-radius: 10px;
   --default-font-size: 1.35rem;
-  --button-backgroung: #ff5100;
+  --button-backgroung: #ff6600;
 }
 
 * {
@@ -24,7 +24,6 @@ body {
 body {
   height: 100vh;
   color: #000;
-  background: #fafafa;
 }
 
 a {
@@ -36,4 +35,12 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+.background {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: 0;
 }
