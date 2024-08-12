@@ -4,7 +4,7 @@ import styled from "styled-components";
 
 const WelcomeSection = () => {
   return (
-    <DefaultSection>
+    <MainSection>
       <MainSection>
         <DeveloperName>Olá, sou o Filipe Gallo</DeveloperName>
         <DescriptionBox>
@@ -17,7 +17,7 @@ const WelcomeSection = () => {
         </DescriptionBox>
         <BiggerButton>Projetos</BiggerButton>
       </MainSection>
-    </DefaultSection>
+    </MainSection>
   );
 };
 

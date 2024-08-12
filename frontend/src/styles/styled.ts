@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const DefaultSection = styled.section`
+export const TemplateSection = styled.section`
   width: 100%;
   height: 100%;
   text-align: center;
@@ -10,7 +10,13 @@ export const DefaultSection = styled.section`
   background-color: #fff;
 `;
 
-export const MainSection = styled(DefaultSection)`
+export const DefaultSection = styled(TemplateSection)`
+  padding: 120px 0px;
+  background-color: #fefefe;
+`;
+
+export const MainSection = styled(TemplateSection)`
+  padding: 0px;
   width: 100%;
   height: 100%;
   text-align: center;
@@ -30,7 +36,6 @@ export const SectionTitle = styled.h2`
   text-transform: uppercase;
   font-size: 2.5rem;
   font-weight: 800;
-  margin-top: 120px;
 `;
 
 export const DefaultButton = styled.button`

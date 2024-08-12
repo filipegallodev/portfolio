@@ -7,9 +7,9 @@ import React from "react";
 
 const AboutMeSection = () => {
   return (
-    <DefaultSection>
+    <DefaultSection id="sobre">
       <DefaultContainer>
-        <SectionTitle>Sobre mim</SectionTitle>
+        <SectionTitle>Sobre</SectionTitle>
       </DefaultContainer>
     </DefaultSection>
   );
