@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@300;400;500;700;900&display=swap");
 
 :root {
-  --max-width: 1100px;
+  --max-width: 1200px;
   --border-radius: 10px;
   --default-font-size: 1.35rem;
   --button-backgroung: #ff6600;

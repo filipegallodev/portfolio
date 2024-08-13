@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const TemplateSection = styled.section`
   width: 100%;
   height: 100%;
-  text-align: center;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -30,12 +29,22 @@ export const MainSection = styled(TemplateSection)`
 
 export const DefaultContainer = styled.div`
   max-width: var(--max-width);
+  width: 100%;
 `;
 
 export const SectionTitle = styled.h2`
+  text-align: center;
   text-transform: uppercase;
   font-size: 2.5rem;
   font-weight: 800;
+  margin-bottom: 32px;
+`;
+
+export const SectionSubTitle = styled.h3`
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin-bottom: 16px;
 `;
 
 export const DefaultButton = styled.button`

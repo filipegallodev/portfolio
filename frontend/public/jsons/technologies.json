@@ -1,0 +1,34 @@
+[
+  {
+    "id": "next",
+    "name": "Next.js"
+  },
+  {
+    "id": "typescript",
+    "name": "TypeScript"
+  },
+  {
+    "id": "java",
+    "name": "Java"
+  },
+  {
+    "id": "springboot",
+    "name": "Spring Boot"
+  },
+  {
+    "id": "postgres",
+    "name": "PostgreSQL"
+  },
+  {
+    "id": "redux",
+    "name": "Redux"
+  },
+  {
+    "id": "materialui",
+    "name": "Material UI"
+  },
+  {
+    "id": "styledcomponents",
+    "name": "styled-components"
+  }
+]
