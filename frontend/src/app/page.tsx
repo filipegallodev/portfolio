@@ -2,7 +2,7 @@
 
 import AboutMeSection from "@/components/AboutMeSection/AboutMeSection";
 import Header from "@/components/Header/Header";
-import ProjectsSection from "@/components/ProjectsSection/ProjectsSection";
+import ProjectsSection from "@/components/Projects/ProjectsSection";
 import WelcomeSection from "@/components/WelcomeSection/WelcomeSection";
 import styled from "styled-components";
 
