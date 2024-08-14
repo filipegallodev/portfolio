@@ -2,6 +2,7 @@
 
 import AboutMeSection from "@/components/AboutMeSection/AboutMeSection";
 import Header from "@/components/Header/Header";
+import ProjectsSection from "@/components/ProjectsSection/ProjectsSection";
 import WelcomeSection from "@/components/WelcomeSection/WelcomeSection";
 import styled from "styled-components";
 
@@ -12,6 +13,7 @@ export default function Home() {
       <MainContainer>
         <WelcomeSection />
         <AboutMeSection />
+        <ProjectsSection />
       </MainContainer>
     </>
   );

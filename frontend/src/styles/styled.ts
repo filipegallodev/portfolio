@@ -11,7 +11,8 @@ export const TemplateSection = styled.section`
 
 export const DefaultSection = styled(TemplateSection)`
   padding: 120px 0px;
-  background-color: #fefefe;
+  background-color: #f8f8f8;
+  background-image: linear-gradient(0deg, #f8f8f8 0%, #ffffff 100%);
 `;
 
 export const MainSection = styled(TemplateSection)`
@@ -38,6 +39,7 @@ export const SectionTitle = styled.h2`
   font-size: 2.5rem;
   font-weight: 800;
   margin-bottom: 32px;
+  letter-spacing: 1px;
 `;
 
 export const SectionSubTitle = styled.h3`
@@ -54,7 +56,12 @@ export const DefaultButton = styled.button`
   border: none;
   text-transform: uppercase;
   font-weight: 600;
+  letter-spacing: 1px;
   cursor: pointer;
+  transition: 0.05s;
+  &:hover {
+    background-color: #ff7b00;
+  }
 `;
 
 export const BiggerButton = styled(DefaultButton)`
